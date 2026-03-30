@@ -29,7 +29,7 @@ int charToValue(char text){
 
 void isDecMult4(char *text, int base){
     int len=0;
-    while(text[len]!='\0'){
+    while(text[len]){
         len++;
     }
     int value;
