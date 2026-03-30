@@ -88,7 +88,7 @@ void printDifWords(char *sq, char *W){
 
 int main()
 {
-    char s1[]="asndfghasjklar";
+    char s1[]="asndfghasjkar";
     char s2[]="sdafe";
     squeeze(s1,s2);
 
