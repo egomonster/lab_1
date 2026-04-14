@@ -36,7 +36,10 @@ void isDecMult4(char *text, int base){
             len++;
         }
         int value;
-        if(len==1){
+        if(len==0){
+            value=0;
+        }
+        else if(len==1){
             value=charToValue(text[0]);
         }
         else{
